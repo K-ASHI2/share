@@ -1,0 +1,2 @@
+/フレーム,移動パターン,敵の種類,x座標,y座標,敵の速度,敵の体力,待機時間,発射時間,弾幕種類,弾の色,アイテム
+/frame,pattern,kind,x,y,v,hp,wait,bt,bkind,color,item

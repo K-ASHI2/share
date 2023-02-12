@@ -1,0 +1,38 @@
+﻿  Backup.cpp
+  ChangeFlag.cpp
+  LoadBackground.cpp
+  LoadSelectThings.cpp
+  OpenFile.cpp
+  ReadMap.cpp
+  MenuBar.cpp
+  MoveScrollBar.cpp
+  DrawCSMenu.cpp
+  DrawRed.cpp
+  cs_etc.cpp
+  DrawBackground.cpp
+  DrawButton.cpp
+  EffectSound.cpp
+  FadeOut.cpp
+  init_key.cpp
+  JudgeMouse.cpp
+  Update.cpp
+  UpdateKey.cpp
+  CreateStage.cpp
+  コンパイル中...
+  DrawMap.cpp
+  Initialize.cpp
+  Draw.cpp
+  DrawStage.cpp
+  LoadMusic.cpp
+  LoadImage.cpp
+  Main.cpp
+  WriteMap.cpp
+  Music.cpp
+  SelectWindow.cpp
+     ライブラリ C:\Users\asshy\Desktop\プログラム作品\アクションゲームのステージ作成ツール\StageMaker\x64\Release\StageMaker.lib とオブジェクト C:\Users\asshy\Desktop\プログラム作品\アクションゲームのステージ作成ツール\StageMaker\x64\Release\StageMaker.exp を作成中
+  コード生成しています。
+  72 of 75 functions (96.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  コード生成が終了しました。
+  STG2016.vcxproj -> C:\Users\asshy\Desktop\プログラム作品\アクションゲームのステージ作成ツール\StageMaker\x64\Release\StageMaker.exe

@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\menu">
+      <UniqueIdentifier>{da920e64-1db0-476b-a004-4d31e9c70e8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\menu\common">
+      <UniqueIdentifier>{5a090079-b2f2-45de-b70c-51614ad1c9c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\load">
+      <UniqueIdentifier>{2338e00c-57f5-40a0-b6b0-1e106d85f2c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\draw">
+      <UniqueIdentifier>{bdca9866-e538-44a4-999c-dc58f797b180}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\class">
+      <UniqueIdentifier>{57c199b4-c39a-4f31-ac5b-c3c55a485f05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\class">
+      <UniqueIdentifier>{90bfc82d-3ea2-4543-9323-b97ec24fb959}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\music">
+      <UniqueIdentifier>{ad99e89c-6e76-4e7b-956a-6005015a6315}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\update">
+      <UniqueIdentifier>{08af80a2-9db7-41d6-9cf7-340af3027469}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\player">
+      <UniqueIdentifier>{10edd263-8b65-4085-8393-ef28c8bc457a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="flagSetFont.cpp">
+      <Filter>ソース ファイル\menu\common</Filter>
+    </ClCompile>
+    <ClCompile Include="fadeOut.cpp">
+      <Filter>ソース ファイル\update</Filter>
+    </ClCompile>
+    <ClCompile Include="update.cpp">
+      <Filter>ソース ファイル\update</Filter>
+    </ClCompile>
+    <ClCompile Include="updateKey.cpp">
+      <Filter>ソース ファイル\update</Filter>
+    </ClCompile>
+    <ClCompile Include="stageMusic.cpp">
+      <Filter>ソース ファイル\music</Filter>
+    </ClCompile>
+    <ClCompile Include="effectSound.cpp">
+      <Filter>ソース ファイル\music</Filter>
+    </ClCompile>
+    <ClCompile Include="vanish.cpp">
+      <Filter>ソース ファイル\player</Filter>
+    </ClCompile>
+    <ClCompile Include="move.cpp">
+      <Filter>ソース ファイル\player</Filter>
+    </ClCompile>
+    <ClCompile Include="blockFall.cpp">
+      <Filter>ソース ファイル\player</Filter>
+    </ClCompile>
+    <ClCompile Include="title.cpp">
+      <Filter>ソース ファイル\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="startCount.cpp">
+      <Filter>ソース ファイル\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="pause.cpp">
+      <Filter>ソース ファイル\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="keyConfig.cpp">
+      <Filter>ソース ファイル\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="clear.cpp">
+      <Filter>ソース ファイル\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="changeFlag.cpp">
+      <Filter>ソース ファイル\menu\common</Filter>
+    </ClCompile>
+    <ClCompile Include="selectWindow.cpp">
+      <Filter>ソース ファイル\menu\common</Filter>
+    </ClCompile>
+    <ClCompile Include="loadHiscore.cpp">
+      <Filter>ソース ファイル\load</Filter>
+    </ClCompile>
+    <ClCompile Include="load.cpp">
+      <Filter>ソース ファイル\load</Filter>
+    </ClCompile>
+    <ClCompile Include="drawRed.cpp">
+      <Filter>ソース ファイル\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="drawPlayWindow.cpp">
+      <Filter>ソース ファイル\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="drawPlay.cpp">
+      <Filter>ソース ファイル\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="drawEx.cpp">
+      <Filter>ソース ファイル\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="draw.cpp">
+      <Filter>ソース ファイル\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="FallingBlock.cpp">
+      <Filter>ソース ファイル\class</Filter>
+    </ClCompile>
+    <ClCompile Include="NextBlock.cpp">
+      <Filter>ソース ファイル\class</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>ソース ファイル\class</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>ソース ファイル\class</Filter>
+    </ClCompile>
+    <ClCompile Include="initialize.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Music.cpp">
+      <Filter>ソース ファイル\class</Filter>
+    </ClCompile>
+    <ClCompile Include="loadMusic.cpp">
+      <Filter>ソース ファイル\music</Filter>
+    </ClCompile>
+    <ClCompile Include="playMusic.cpp">
+      <Filter>ソース ファイル\music</Filter>
+    </ClCompile>
+    <ClCompile Include="playerInit.cpp">
+      <Filter>ソース ファイル\player</Filter>
+    </ClCompile>
+    <ClCompile Include="playerUpdate.cpp">
+      <Filter>ソース ファイル\player</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyPad.cpp">
+      <Filter>ソース ファイル\class</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuWindow.cpp">
+      <Filter>ソース ファイル\class</Filter>
+    </ClCompile>
+    <ClCompile Include="Font2.cpp">
+      <Filter>ソース ファイル\class</Filter>
+    </ClCompile>
+    <ClCompile Include="Field.cpp">
+      <Filter>ソース ファイル\class</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchField.cpp">
+      <Filter>ソース ファイル\class</Filter>
+    </ClCompile>
+    <ClCompile Include="moveMenu.cpp">
+      <Filter>ソース ファイル\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="manual.cpp">
+      <Filter>ソース ファイル\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="operationMenu.cpp">
+      <Filter>ソース ファイル\menu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="extern.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="grobal.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="FallingBlock.h">
+      <Filter>ヘッダー ファイル\class</Filter>
+    </ClInclude>
+    <ClInclude Include="NextBlock.h">
+      <Filter>ヘッダー ファイル\class</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>ヘッダー ファイル\class</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>ヘッダー ファイル\class</Filter>
+    </ClInclude>
+    <ClInclude Include="enum.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Music.h">
+      <Filter>ヘッダー ファイル\class</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuWindow.h">
+      <Filter>ヘッダー ファイル\class</Filter>
+    </ClInclude>
+    <ClInclude Include="function.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyPad.h">
+      <Filter>ヘッダー ファイル\class</Filter>
+    </ClInclude>
+    <ClInclude Include="Font2.h">
+      <Filter>ヘッダー ファイル\class</Filter>
+    </ClInclude>
+    <ClInclude Include="Field.h">
+      <Filter>ヘッダー ファイル\class</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchField.h">
+      <Filter>ヘッダー ファイル\class</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

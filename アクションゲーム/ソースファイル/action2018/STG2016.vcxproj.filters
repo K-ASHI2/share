@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Draw">
+      <UniqueIdentifier>{469164fb-f5c2-461a-899a-b5cb5c8b147b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Initialize">
+      <UniqueIdentifier>{71ccb2bc-6130-4963-b561-85afcc994fa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Judge">
+      <UniqueIdentifier>{c5799ea8-02d9-47be-be2c-7b3e513776d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Load">
+      <UniqueIdentifier>{a6f8cce3-d928-41fd-b8dc-dd37c0a63a2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Menu">
+      <UniqueIdentifier>{2a842d15-9348-436f-8428-680400a82ae2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Menu\Common">
+      <UniqueIdentifier>{b9fca508-4f41-4522-9a2f-d178c9a6e59b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Move">
+      <UniqueIdentifier>{75193bb3-5e27-43ba-99c6-7b20c3611091}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Sound">
+      <UniqueIdentifier>{d4429503-7852-47ca-a5d9-fc98b732b193}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Move\MoveBullet">
+      <UniqueIdentifier>{44fd6eb1-c9da-45ae-a107-72b9b740baac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Update">
+      <UniqueIdentifier>{c2207576-3100-4ad1-9bd6-5779f86b1fad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\function">
+      <UniqueIdentifier>{0320468b-59ac-4546-9a01-f078c63b1790}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\struct">
+      <UniqueIdentifier>{1f5ea310-54e1-4f50-85e3-3ffb02538bad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="init_map.cpp">
+      <Filter>ソース ファイル\Initialize</Filter>
+    </ClCompile>
+    <ClCompile Include="draw.cpp">
+      <Filter>ソース ファイル\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="init_key.cpp">
+      <Filter>ソース ファイル\Initialize</Filter>
+    </ClCompile>
+    <ClCompile Include="drawPlay.cpp">
+      <Filter>ソース ファイル\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="drawTitle.cpp">
+      <Filter>ソース ファイル\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="drawD_Select.cpp">
+      <Filter>ソース ファイル\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="drawS_select.cpp">
+      <Filter>ソース ファイル\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="drawPause.cpp">
+      <Filter>ソース ファイル\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="drawBackground.cpp">
+      <Filter>ソース ファイル\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawRed.cpp">
+      <Filter>ソース ファイル\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyInit.cpp">
+      <Filter>ソース ファイル\Initialize</Filter>
+    </ClCompile>
+    <ClCompile Include="Initialize.cpp">
+      <Filter>ソース ファイル\Initialize</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerInit.cpp">
+      <Filter>ソース ファイル\Initialize</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyJudge.cpp">
+      <Filter>ソース ファイル\Judge</Filter>
+    </ClCompile>
+    <ClCompile Include="Judge.cpp">
+      <Filter>ソース ファイル\Judge</Filter>
+    </ClCompile>
+    <ClCompile Include="JudgeDeath.cpp">
+      <Filter>ソース ファイル\Judge</Filter>
+    </ClCompile>
+    <ClCompile Include="JudgeDoor.cpp">
+      <Filter>ソース ファイル\Judge</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadImage.cpp">
+      <Filter>ソース ファイル\Load</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadMusic.cpp">
+      <Filter>ソース ファイル\Load</Filter>
+    </ClCompile>
+    <ClCompile Include="MapLoad.cpp">
+      <Filter>ソース ファイル\Load</Filter>
+    </ClCompile>
+    <ClCompile Include="MapToChar.cpp">
+      <Filter>ソース ファイル\Load</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeFlag.cpp">
+      <Filter>ソース ファイル\Menu\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Clear.cpp">
+      <Filter>ソース ファイル\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectWindow.cpp">
+      <Filter>ソース ファイル\Menu\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="DifficultySelect.cpp">
+      <Filter>ソース ファイル\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Gameover.cpp">
+      <Filter>ソース ファイル\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Pause.cpp">
+      <Filter>ソース ファイル\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="StageSelect.cpp">
+      <Filter>ソース ファイル\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>ソース ファイル\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectSound.cpp">
+      <Filter>ソース ファイル\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Music.cpp">
+      <Filter>ソース ファイル\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletMove.cpp">
+      <Filter>ソース ファイル\Move\MoveBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveFireBar.cpp">
+      <Filter>ソース ファイル\Move\MoveBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockMove.cpp">
+      <Filter>ソース ファイル\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="Create.cpp">
+      <Filter>ソース ファイル\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyMove.cpp">
+      <Filter>ソース ファイル\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="Move.cpp">
+      <Filter>ソース ファイル\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="FadeOut.cpp">
+      <Filter>ソース ファイル\Update</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayUpdate.cpp">
+      <Filter>ソース ファイル\Update</Filter>
+    </ClCompile>
+    <ClCompile Include="Update.cpp">
+      <Filter>ソース ファイル\Update</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateKey.cpp">
+      <Filter>ソース ファイル\Update</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadBackground.cpp">
+      <Filter>ソース ファイル\Load</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="extern.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="grobal.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="function.h">
+      <Filter>ヘッダー ファイル\function</Filter>
+    </ClInclude>
+    <ClInclude Include="drawFunction.h">
+      <Filter>ヘッダー ファイル\function</Filter>
+    </ClInclude>
+    <ClInclude Include="gameFunction.h">
+      <Filter>ヘッダー ファイル\function</Filter>
+    </ClInclude>
+    <ClInclude Include="initFunction.h">
+      <Filter>ヘッダー ファイル\function</Filter>
+    </ClInclude>
+    <ClInclude Include="judgeFunction.h">
+      <Filter>ヘッダー ファイル\function</Filter>
+    </ClInclude>
+    <ClInclude Include="menuFunction.h">
+      <Filter>ヘッダー ファイル\function</Filter>
+    </ClInclude>
+    <ClInclude Include="enum.h">
+      <Filter>ヘッダー ファイル\struct</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.h">
+      <Filter>ヘッダー ファイル\struct</Filter>
+    </ClInclude>
+    <ClInclude Include="structImg.h">
+      <Filter>ヘッダー ファイル\struct</Filter>
+    </ClInclude>
+    <ClInclude Include="structEnemy.h">
+      <Filter>ヘッダー ファイル\struct</Filter>
+    </ClInclude>
+    <ClInclude Include="structMusic.h">
+      <Filter>ヘッダー ファイル\struct</Filter>
+    </ClInclude>
+    <ClInclude Include="structPlayer.h">
+      <Filter>ヘッダー ファイル\struct</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

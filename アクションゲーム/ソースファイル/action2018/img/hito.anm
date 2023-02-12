@@ -1,0 +1,22 @@
+;EDGE用アニメーションデータ
+ANIME_VERSION=1
+
+
+;--------------------------
+PATTERN_NAME=noname000
+
+	FRAME_NUMBER=1
+		FILENAME=C:\Users\asshy\Documents\Visual Studio 2010\Projects\zemi_b_act\img\hito4.png
+		WIN_TITLE=hito4.png
+		SRC_X=0
+		SRC_Y=0
+		LAYER_NUM=0
+		WIDTH=64
+		HEIGHT=64
+		DEST_X=0
+		DEST_Y=0
+		DELAY=33
+		LAYER_ADD=0
+		CKEY_ENABLE=0
+		CKEY_NUM=0
+
